@@ -1,0 +1,9 @@
+# Exports
+*.vip
+*.vipc
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+*.ini
