@@ -1,4 +1,4 @@
-##!/usr/bin/env groovy
+#!/usr/bin/env groovy
 
 //note: this script assumes that it will be invoked from another script after that script has defined the necessary parameters
 
