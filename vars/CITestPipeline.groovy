@@ -6,7 +6,7 @@
 
 //This script further assumes that Jenkins is configured (via the Pipeline Shared Libraries plugin) to implicitly include https://github.com/LabVIEW-DCAF/buildsystem
 
-def call(utfPaths,vipbPaths,lvVersion){
+def call(utfPaths,lvVersion){
 
 switch(lvVersion){  //This is to abstract out the different Jenkinsfile conventions of setting version to 14.0 instead of 2014.
   case "14.0":
