@@ -21,7 +21,8 @@ switch(lvVersion){  //This is to abstract out the different Jenkinsfile conventi
 
 def continueBuild
   
-  node(lvVersion){
+	node(lvVersion){
+	{
         echo 'Starting build...'
 		
 		
@@ -70,4 +71,5 @@ def continueBuild
 	   stage ('Post-Clean'){
           postClean()
         }    
+	}
 }
